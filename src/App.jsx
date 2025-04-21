@@ -1,17 +1,14 @@
-import LoadingScreen from './components/LoadingScreen'
-import './App.css'
-import "./index.css"
-import { useState, useEffect } from 'react'
+import LoadingScreen from "./components/LoadingScreen";
+import "./App.css";
+import "./index.css";
+import { useState } from "react";
 
 function App() {
-
-
+  const [isLoaded, setIsLoaded] = useState(false);
 
   return (
-    <>
-     <LoadingScreen />
-    </>
-  )
+    <>{!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}</>
+  );
 }
 
-export default App
+export default App;
