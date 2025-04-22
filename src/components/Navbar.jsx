@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import Navlinks from "./Navlinks";
+import Logo from "./Logo";
 
 const Navbar = ({ menuOpen, setMenuOpen }) => {
   useEffect(() => {
@@ -21,9 +22,7 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
       <div className="max-w-5xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <a className="font-mono text-4xl font-bold hover:text-white transition-all duration-300 ease-in-out" href="#home">
-            Portfoli<span className="text-orange-700 transition-colors transition-all duration-300 ease-in-out">o</span>
-          </a>
+          <Logo href="#about-me"/>
           {/* Hamburger menu for Mobile view */}
           <div
             onClick={() => {
@@ -46,7 +45,7 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
               menuOpen={menuOpen}
               setMenuOpen={setMenuOpen}
               title="myStory"
-              href="#my-story"
+              href="#about-me"
             />
             <Navlinks
               menuOpen={menuOpen}
