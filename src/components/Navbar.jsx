@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import Navlinks from "./Navlinks";
 
 const Navbar = ({ menuOpen, setMenuOpen }) => {
   useEffect(() => {
@@ -15,13 +16,13 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
 
   return (
     // navbar component
-    <nav className="fixed top-0 w-full z-40 bg-[rgba(10,10,10,0.8] backdrop-blur-lg border-b border-white/10 shadow-lg">
+    <nav className="fixed top-10 w-full z-40 text-[#a9a9a9] ">
       {/* navbar container */}
       <div className="max-w-5xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <a className="font-mono text-xl font-bold" href="#home">
-            Portfoli<span className="text-orange-700">o</span>
+          <a className="font-mono text-4xl font-bold hover:text-white transition-all duration-300 ease-in-out" href="#home">
+            Portfoli<span className="text-orange-700 transition-colors transition-all duration-300 ease-in-out">o</span>
           </a>
           {/* Hamburger menu for Mobile view */}
           <div
@@ -37,34 +38,34 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
             onClick={() => setMenuOpen(false)}
             className={`${
               menuOpen
-                ? "flex absolute top-18 flex-col text-center items-center justify-center bg-[#10100040] p-3 rounded-[10px] right-4"
-                : "hidden md:flex items-center space-x-8 "
+                ? "flex gap-2 absolute top-18 flex-col text-right bg-[#10100040] p-3 rounded-[10px] right-4"
+                : "hidden md:flex items-center space-x-6 "
             }`}
           >
-            <a
-              className="text-gray-300 hover:text-white transition-colors py-0.5"
-              href="#home"
-            >
-              Home
-            </a>
-            <a
-              className="text-gray-300 hover:text-white transition-colors py-0.5"
-              href="#about"
-            >
-              About
-            </a>
-            <a
-              className="text-gray-300 hover:text-white transition-colors py-0.5"
-              href="#projects"
-            >
-              Projects
-            </a>
-            <a
-              className="text-gray-300 hover:text-white transition-colors py-0.5"
-              href="#contact"
-            >
-              Contact
-            </a>
+            <Navlinks
+              menuOpen={menuOpen}
+              setMenuOpen={setMenuOpen}
+              title="myStory"
+              href="#my-story"
+            />
+            <Navlinks
+              menuOpen={menuOpen}
+              setMenuOpen={setMenuOpen}
+              title="mySkills"
+              href="#my-skills"
+            />
+            <Navlinks
+              menuOpen={menuOpen}
+              setMenuOpen={setMenuOpen}
+              title="myWorks"
+              href="#my-works"
+            />
+            <Navlinks
+              menuOpen={menuOpen}
+              setMenuOpen={setMenuOpen}
+              title="myContacts"
+              href="#my-contacts"
+            />
           </div>
         </div>
       </div>
