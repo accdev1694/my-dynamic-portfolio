@@ -1,8 +1,17 @@
 @import "tailwindcss";
 
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
+
+:root{
+  --color-primary: #828282;
+  --color-accent: #82002b;
+  --color-secondary: #2b2e4a;
+  --color-bg: #1f2235;
+  
+}
+
 
 
 html,
@@ -11,20 +20,15 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  background: #1f2235;
-  color: #a9a9a9;
+  background: var(--color-bg);
+  color: var(--color-primary);
 }
 
-:root{
-  --color-primary: #c7c4bc;
-  --color-accent: #8e0b02;
-  --secondary: #2b2e4a;
-  
-}
 
-* {
-  /* outline : 1px solid red; */
-}
+
+/* * {
+  outline : 1px solid red;
+} */
 
 @layer utils {
   @keyframes blinker {

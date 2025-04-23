@@ -3,6 +3,7 @@ import "./App.css";
 import "./index.css";
 import { useState } from "react";
 import Navbar from "./components/Navbar";
+import About from "./components/sections/About";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -16,7 +17,8 @@ function App() {
           isLoaded ? "opacity-100" : "opacity-0"
         } text-gray-100`}
       >
-        <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+        <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+        <About />
       </div>
     </>
   );

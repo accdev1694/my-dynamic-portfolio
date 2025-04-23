@@ -17,9 +17,9 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
 
   return (
     // navbar component
-    <nav className="fixed top-10 w-full z-40 text-[#a9a9a9] ">
+    <nav className="fixed top-10 w-full z-40 text-gray-500 ">
       {/* navbar container */}
-      <div className="max-w-5xl mx-auto px-4">
+      <div className="max-w-7.5xl mx-auto px-36">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Logo href="#about-me"/>

@@ -2,7 +2,8 @@ import {useState, useEffect} from "react";
 
 const LoadingScreen = ({onComplete}) => {
   const [text, setText] = useState("")
-  const fullText = "<Oloche Aboje's Portfolio />"
+  
+  const fullText = "Oloche Aboje!"
 
   useEffect(()=>{
     let index = 0;
@@ -19,12 +20,12 @@ const LoadingScreen = ({onComplete}) => {
       }
     }, 100)
     return () => clearInterval(interval)
-  },[onComplete])
+  },[onComplete, fullText])
   
   return (
     <div className="fixed inset-0 z-50 bg-black text-gray-100 flex flex-col items-center justify-center">
       <div className="mb-4 text=4xl font-mono font-bold">
-        {text} <span className="animate-blink ml-1"> | </span>
+        {text} <span className="text-[var(--color-accent)] font-bold animate-blink ml-1"> | </span>
       </div>
 
       <div className="w-[200px] h-[2px] bg-gray-800 rounded relative overflow-hidden">
