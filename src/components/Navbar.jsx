@@ -17,9 +17,9 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
 
   return (
     // navbar component
-    <nav className="fixed top-10 w-full z-40 text-gray-500 ">
+    <nav className="fixed top-10 w-full z-40 text-gray-500">
       {/* navbar container */}
-      <div className="max-w-7.5xl mx-auto px-36">
+      <div className="max-w-7.5xl mx-auto px-4 md:px-36">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Logo href="#about-me"/>
@@ -28,7 +28,7 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
             onClick={() => {
               setMenuOpen(!menuOpen);
             }}
-            className="w-7 h-5 relative cursor-pointer z-40 md:hidden"
+            className="relative cursor-pointer z-40 md:hidden flex justify-end items-center"
           >
             {`${menuOpen ? "✖" : "☰"}`}
           </div>
@@ -37,7 +37,7 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
             onClick={() => setMenuOpen(false)}
             className={`${
               menuOpen
-                ? "flex gap-2 absolute top-18 flex-col text-right bg-[#10100040] p-3 rounded-[10px] right-4"
+                ? "fixed inset-0 text-white w-full flex gap-2 absolute bg-gray-800/95 flex-col items-center justify-center"
                 : "hidden md:flex items-center space-x-6 "
             }`}
           >

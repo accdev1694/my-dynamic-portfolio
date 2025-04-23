@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section
       id="my-story"
-      className="text-gray-400 min-h-screen flex items-end justify-between relative p-36 "
+      className="text-gray-400 min-h-screen flex flex-col items-end justify-between relative px-10 py-36 md:p-36"
     >
       <div className="w-[70%] justfy-left mr-18">
         <h3 className="text-1xl ">
