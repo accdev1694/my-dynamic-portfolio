@@ -3,7 +3,8 @@ import "./App.css";
 import "./index.css";
 import { useState } from "react";
 import Navbar from "./components/Navbar";
-import About from "./components/sections/About";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -13,12 +14,13 @@ function App() {
     <>
       {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}
       <div
-        className={`min-h-screen transition-opacity duration-700 ${
+        className={`relative min-h-screen transition-opacity duration-700 ${
           isLoaded ? "opacity-100" : "opacity-0"
         } text-gray-100`}
       >
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-        <About />
+        <Main />
+        <Footer />
       </div>
     </>
   );
