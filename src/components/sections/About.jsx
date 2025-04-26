@@ -28,8 +28,8 @@ const About = () => {
           and that passion drives everything I build.
         </p>
       </div>
-      <div className=" md:ml-18 w-[70%] md:w-[30%] justify-center m-auto">
-        <ImageCard url={"../../src/assets/images/my-photo.png"} />
+      <div className="p-px bg-gradient-to-r from-[var(--color-accent)] to-[var(--color-accent-dark)]  rounded-xl md:ml-18 w-[70%] md:w-[30%] justify-center m-auto">
+        <ImageCard url={"../../src/assets/images/my-photo.png"} width={"bg-gray-900/95 rounded-xl"} alt="My Photo"/>
       </div>
     </section>
   );
