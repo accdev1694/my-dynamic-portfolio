@@ -17,18 +17,20 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
 
   return (
     // navbar component
-    <nav className="fixed top-10 w-full z-40 text-gray-500">
+    <nav
+      className="fixed top-0 left-0 right-0 bg-[var(--color-bg)] h-12 md:h-24 md:pt-10 w-full z-40 text-gray-500 border-b border-gray-700/40"
+    >
       {/* navbar container */}
-      <div className="max-w-7.5xl mx-auto px-4 md:px-36">
+      <div className="max-w-7.5xl mx-auto px-4 md:px-56">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Logo href="#about-me"/>
+          <Logo href="#about-me" />
           {/* Hamburger menu for Mobile view */}
           <div
             onClick={() => {
               setMenuOpen(!menuOpen);
             }}
-            className="relative cursor-pointer z-40 md:hidden flex justify-end items-center"
+            className="relative cursor-pointer z-60 md:hidden flex justify-end items-center"
           >
             {`${menuOpen ? "✖" : "☰"}`}
           </div>
@@ -37,7 +39,7 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
             onClick={() => setMenuOpen(false)}
             className={`${
               menuOpen
-                ? "fixed inset-0 text-white w-full flex gap-2 absolute bg-gray-800/95 flex-col items-center justify-center"
+                ? "fixed inset-0 text-white w-full flex gap-2 absolute bg-gray-800/97 flex-col items-center justify-center z-50"
                 : "hidden md:flex items-center space-x-6 "
             }`}
           >
