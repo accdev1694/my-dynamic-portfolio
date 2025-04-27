@@ -1,8 +1,13 @@
 import About from "./sections/About";
+import Skills from "./sections/Skills";
 
 const MainSection = () => {
-  return <div className="absolute top-12 md:top-24 bottom-12 bg-[--var(color-bg)]  px-8 md:px-56">
+  return <div className=" bg-[--var(color-bg)] px-8 md:px-56 z-60">
     <About />
+    <Skills />
+    
+    
+    
   </div>;
 };
 

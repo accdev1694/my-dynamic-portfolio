@@ -1,19 +1,20 @@
-import ContactBtn from "../ContactBtn";import ImageCard from "../ImageCard";
+import ContactBtn from "../ContactBtn";
+import HeadingOne from "../HeadingOne";
+import ImageCard from "../ImageCard";
+
 
 const About = () => {
   return (
     <section
-      id="my-story"
-      className="h-full flex flex-col-reverse md:flex-row items-center justify-center md:justify-between gap-12 md:gap-0"
+      id="about-me"
+      className="relative min-h-screen pt-12 flex flex-col-reverse md:flex-row items-center justify-center md:justify-between gap-12 md:gap-0"
     >
-      <div className="md:w-[70%] justfy-left md:mr-18 text-center md:text-right items-center">
+      <div className="md:w-[60%] justfy-left md:mr-14 text-center md:text-right items-center">
         <h3 className="text-xs">
           Hello,{" "}
           <span className="text-white font-bold text-xl md:text-2xl">I AM</span>
         </h3>
-        <h1 className=" text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[var(--color-accent-dark)] to-[var(--color-accent)] md:pb-2">
-          Oloche Aboje
-        </h1>
+        <HeadingOne text="Oloche Aboje" />
         <h2 className="text-xs">
           <span className="text-white font-bold text-xl md:text-2xl">
             FRONT END
@@ -27,13 +28,12 @@ const About = () => {
           focused, creative, and at home. I can’t imagine doing anything else,
           and that passion drives everything I build.
         </p>
-        <div className="flex mt-2 gap-4">
-          
-          <a className="w-[65%] text-center border border-[var(--color-accent)] text-gray-400 text-xs md:text-sm py-2 rounded-md hover:bg-[var(--color-accent)] hover:text-white font-bold transition duration-300 ease-in-out" href="#my-skills">Checkout MySkills</a>
+        <div className="flex mt-8 gap-4">          
+          <a className="w-[65%] text-center border border-[var(--color-accent)] text-gray-400 text-xs md:text-sm py-2 rounded-md hover:bg-[var(--color-accent)] hover:text-white font-bold transition duration-300 ease-in-out" href="#my-skills">{">>>"} Checkout MySkills</a>
           <ContactBtn />
         </div>
       </div>
-      <div className="p-px bg-gradient-to-r from-[var(--color-accent)] to-[var(--color-accent-dark)]  rounded-xl md:ml-18 w-[70%] md:w-[30%] justify-center">
+      <div className="p-px bg-gradient-to-r from-[var(--color-accent)] to-[var(--color-accent-dark)] rounded-xl md:ml-14 w-[70%] md:w-[40%] justify-center">
         <ImageCard
           url={"../../src/assets/images/my-photo.png"}
           className={"bg-gray-900/95 rounded-xl"}
