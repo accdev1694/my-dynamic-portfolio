@@ -3,7 +3,7 @@ import "./App.css";
 import "./index.css";
 import { useState } from "react";
 import Navbar from "./components/Navbar";
-import Main from "./components/Main";
+import MainSection from "./components/MainSection";
 import Footer from "./components/Footer";
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
         } text-gray-100`}
       >
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-        <Main />
+        <MainSection />
         <Footer />
       </div>
     </>

@@ -1,10 +1,10 @@
-import ImageCard from "../ImageCard";
+import ContactBtn from "../ContactBtn";import ImageCard from "../ImageCard";
 
 const About = () => {
   return (
     <section
       id="my-story"
-      className="text-gray-400 h-full flex flex-col-reverse md:flex-row items-center justify-center md:justify-between px-8 md:px-56"
+      className="h-full flex flex-col-reverse md:flex-row items-center justify-center md:justify-between gap-12 md:gap-0"
     >
       <div className="md:w-[70%] justfy-left md:mr-18 text-center md:text-right items-center">
         <h3 className="text-xs">
@@ -27,9 +27,18 @@ const About = () => {
           focused, creative, and at home. I can’t imagine doing anything else,
           and that passion drives everything I build.
         </p>
+        <div className="flex mt-2 gap-4">
+          
+          <a className="w-[65%] text-center border border-[var(--color-accent)] text-gray-400 text-xs md:text-sm py-2 rounded-md hover:bg-[var(--color-accent)] hover:text-white font-bold transition duration-300 ease-in-out" href="#my-skills">Checkout MySkills</a>
+          <ContactBtn />
+        </div>
       </div>
-      <div className="p-px bg-gradient-to-r from-[var(--color-accent)] to-[var(--color-accent-dark)]  rounded-xl md:ml-18 w-[70%] md:w-[30%] justify-center m-auto">
-        <ImageCard url={"../../src/assets/images/my-photo.png"} width={"bg-gray-900/95 rounded-xl"} alt="My Photo"/>
+      <div className="p-px bg-gradient-to-r from-[var(--color-accent)] to-[var(--color-accent-dark)]  rounded-xl md:ml-18 w-[70%] md:w-[30%] justify-center">
+        <ImageCard
+          url={"../../src/assets/images/my-photo.png"}
+          className={"bg-gray-900/95 rounded-xl"}
+          alt="My Photo"
+        />
       </div>
     </section>
   );
