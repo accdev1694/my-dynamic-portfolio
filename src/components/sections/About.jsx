@@ -1,3 +1,4 @@
+import Blur from "../Blur";
 import ContactBtn from "../ContactBtn";
 import HeadingOne from "../HeadingOne";
 import ImageCard from "../ImageCard";
@@ -9,6 +10,7 @@ const About = () => {
       id="about-me"
       className="relative min-h-screen pt-12 flex flex-col-reverse md:flex-row items-center justify-center md:justify-between gap-12 md:gap-0"
     >
+      <Blur />
       <div className="md:w-[60%] justfy-left md:mr-14 text-center md:text-right items-center">
         <h3 className="text-xs">
           Hello,{" "}
@@ -33,10 +35,10 @@ const About = () => {
           <ContactBtn />
         </div>
       </div>
-      <div className="p-px bg-gradient-to-r from-[var(--color-accent)] to-[var(--color-accent-dark)] rounded-xl md:ml-14 w-[70%] md:w-[40%] justify-center">
+      <div className="md:ml-14 w-[70%] md:w-[40%] bg-gradient-to-r from-[var(--color-accent-dark)] to-[var(--color-accent)] rounded-full">
         <ImageCard
           url={"../../src/assets/images/my-photo.png"}
-          className={"bg-gray-900/95 rounded-xl"}
+          classNames=""
           alt="My Photo"
         />
       </div>
