@@ -1,6 +1,8 @@
 import Blur from "../Blur";
 import HeadingOne from "../HeadingOne";
 import ImageCard from "../ImageCard";
+import ContactBtn from "../ContactBtn";
+import NextPageBtn from "../NextPageBtn";
 
 const Skills = () => {
   return (
@@ -11,7 +13,7 @@ const Skills = () => {
       <Blur />
       <div className="">
         <HeadingOne text="Skills" />
-        <p className="leading-4 md:leading-6 text-gray-500 mt-4 text-xs md:text-sm tracking-[1px]">
+        <p className="leading-4 md:leading-6 text-gray-500 mt-4 text-xs tracking-[1px]">
           I began my front-end journey with a bootcamp with the University of
           Birmingham, where I built a strong base in HTML, CSS, JavaScript, and
           React. That experience sparked my hunger to go deeper, leading me to
@@ -115,6 +117,10 @@ const Skills = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="flex justify-between gap-4 w-full">
+        <NextPageBtn addClass="w-[50%]" next=">>> Checkout My Projects" nextPage="#my-works" />
+        <ContactBtn addClass="w-[50%]"/>
       </div>
     </section>
   );

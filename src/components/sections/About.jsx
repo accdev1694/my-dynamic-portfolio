@@ -2,6 +2,7 @@ import Blur from "../Blur";
 import ContactBtn from "../ContactBtn";
 import HeadingOne from "../HeadingOne";
 import ImageCard from "../ImageCard";
+import NextPageBtn from "../NextPageBtn";
 
 
 const About = () => {
@@ -23,7 +24,7 @@ const About = () => {
           </span>{" "}
           Developer
         </h2>
-        <p className="leading-4 md:leading-6 text-gray-500 mt-4 text-xs md:text-sm tracking-[1px]">
+        <p className="leading-4 md:leading-6 text-gray-500 mt-4 text-xs tracking-[1px]">
           I started out in architecture, drawn to design and structure — but
           when I discovered web development, everything clicked. Coding quickly
           became more than a skill; it became the space where I feel most
@@ -31,8 +32,8 @@ const About = () => {
           and that passion drives everything I build.
         </p>
         <div className="flex mt-8 gap-4">          
-          <a className="w-[65%] text-center border border-[var(--color-accent)] text-gray-400 text-xs md:text-sm py-2 rounded-md hover:bg-[var(--color-accent)] hover:text-white font-bold transition duration-300 ease-in-out" href="#my-skills">{">>>"} Checkout MySkills</a>
-          <ContactBtn />
+          <NextPageBtn addClass="w-[65%]" next=">>> Checkout My Skills" />
+          <ContactBtn addClass="w-[35%]"/>
         </div>
       </div>
       <div className="md:ml-14 w-[70%] md:w-[40%] bg-gradient-to-r from-[var(--color-accent-dark)] to-[var(--color-accent)] rounded-full">
