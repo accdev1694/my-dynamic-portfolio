@@ -4,28 +4,28 @@ export const getImgUrl = (path) => {
 
 export const projects = [
   {
-    title: "Blog",
+    title: "✍️ BLOG",
     image: getImgUrl("./src/assets/images/projects/blog.png"),
     url: "https://abojeonline.com/",
     description:
       "Built with React to showcase my skills and teach programming to aspiring developers",
   },
   {
-    title: "Ecommerce",
+    title: "🛒 ECOMMERCE",
     image: getImgUrl("./src/assets/images/projects/ecommerce.png"),
     url: null,
     description:
       "An in-progress e-commerce site for African foods, showcasing my web development skills.",
   },
   {
-    title: "Portfolio",
+    title: "🧑‍💻 PORTFOLIO",
     image: getImgUrl("./src/assets/images/projects/portfolio.png"),
     url: null,
     description:
       "A showcase of my projects and experience, reflecting my technical abilities and brand.",
   },
   {
-    title: "Training Page",
+    title: "🎯 TRAINING PAGE",
     image: getImgUrl("./src/assets/images/projects/landing-page.png"),
     url: "https://techpivotlandingpage.netlify.app/",
     description:

@@ -36,7 +36,7 @@ const About = () => {
           <ContactBtn addClass="w-[35%]"/>
         </div>
       </div>
-      <div className="md:ml-14 w-[70%] md:w-[40%] bg-gradient-to-r from-[var(--color-accent-dark)] to-[var(--color-accent)] rounded-full">
+      <div className="bubble md:ml-14 w-[70%] md:w-[40%] bg-gradient-to-r from-[var(--color-accent-dark)] to-[var(--color-accent)] rounded-full">
         <ImageCard
           url={"../../src/assets/images/my-photo.png"}
           classNames=""
