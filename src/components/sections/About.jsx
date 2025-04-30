@@ -32,7 +32,7 @@ const About = () => {
           and that passion drives everything I build.
         </p>
         <div className="flex mt-8 gap-4">          
-          <NextPageBtn addClass="w-[65%]" next=">>> Checkout My Skills" />
+          <NextPageBtn addClass="w-[65%]" text=">>> Checkout My Skills" next="#my-skills"/>
           <ContactBtn addClass="w-[35%]"/>
         </div>
       </div>

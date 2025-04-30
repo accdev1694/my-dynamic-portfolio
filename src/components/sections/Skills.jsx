@@ -118,8 +118,8 @@ const Skills = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-between gap-4 w-full">
-        <NextPageBtn addClass="w-[50%]" next=">>> Checkout My Projects" nextPage="#my-works" />
+      <div className="flex justify-between gap-4 w-[60%]">
+        <NextPageBtn addClass="w-[50%]" text=">>> Checkout My Projects" next="#my-works" />
         <ContactBtn addClass="w-[50%]"/>
       </div>
     </section>
