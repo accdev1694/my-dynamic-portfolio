@@ -33,7 +33,7 @@ const Skills = () => {
               <div className="flex flex-col items-center mt-1 gap-2">
                 <ImageCard
                   alt="Ux Design"
-                  classNames="bubble w-10 p-2 border-1 border-gray-600 hover:bg-gray-800  transition-all duration-300 ease-in-out"
+                  classNames="bubble-slow w-10 p-2 border-1 border-gray-600 hover:bg-gray-800  transition-all duration-300 ease-in-out"
                   url="../../src/assets/images/skills/uiux.png"
                 />
                 <p className="text-[10px] text-center">UI/UXD</p>
@@ -53,7 +53,7 @@ const Skills = () => {
               <div className="flex flex-col items-center mt-1 gap-2">
                 <ImageCard
                   alt="Framer Logo"
-                  classNames="bubble w-10 p-2 bg-gray-700 rounded-full border-1 border-gray-600 hover:bg-gray-800 transition-all duration-300 ease-in-out"
+                  classNames="bubble-slow w-10 p-2 bg-gray-700 rounded-full border-1 border-gray-600 hover:bg-gray-800 transition-all duration-300 ease-in-out"
                   url="../../src/assets/images/skills/framer.png"
                 />
                 <p className="text-[10px] text-center">Framer</p>
@@ -79,7 +79,7 @@ const Skills = () => {
               <div className="flex flex-col items-center mt-1 gap-2">
                 <ImageCard
                   alt="Firebase Logo"
-                  classNames="bubble w-10 p-2 border-1 border-gray-600 hover:bg-gray-800 transition-all duration-300 ease-in-out"
+                  classNames="bubble-slow w-10 p-2 border-1 border-gray-600 hover:bg-gray-800 transition-all duration-300 ease-in-out"
                   url="../../src/assets/images/skills/firebase.png"
                 />
                 <p className="text-[10px] text-center">Firebase</p>
@@ -99,7 +99,7 @@ const Skills = () => {
               <div className="flex flex-col items-center mt-1 gap-2">
                 <ImageCard
                   alt="Firebase Logo"
-                  classNames="bubble w-10 p-2 border-1 border-gray-600 hover:bg-gray-800 rounded-full transition-all duration-300 ease-in-out"
+                  classNames="bubble-slow w-10 p-2 border-1 border-gray-600 hover:bg-gray-800 rounded-full transition-all duration-300 ease-in-out"
                   url="../../src/assets/images/skills/tailwind.png"
                 />
                 <p className="text-[10px] text-center">Tailwind</p>

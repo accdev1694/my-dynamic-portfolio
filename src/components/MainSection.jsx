@@ -1,4 +1,5 @@
 import About from "./sections/About";
+import Contacts from "./sections/Contacts";
 import Projects from "./sections/Projects";
 import Skills from "./sections/Skills";
 
@@ -7,6 +8,7 @@ const MainSection = () => {
     <About />
     <Skills />
     <Projects />
+    <Contacts />
     
     
     

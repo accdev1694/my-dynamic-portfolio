@@ -10,26 +10,36 @@ const Projects = () => {
       id="my-works"
       className="relative min-h-screen pt-12 flex flex-col md:flex-row items-center justify-center md:justify-between gap-12"
     >
-      <div className="grid grid-cols-2 gap-6 border border-gray-700 p-6 w-[50%] rounded-[5px]">
+      <div className="grid grid-cols-2 gap-6  p-6 w-[50%] rounded-[5px]">
         {projects.map((project, index) => (
           <div
-            className="cursor-pointer flex flex-col bg-gray-700/50 p-4 h-45 items-center text-center rounded-[4px] hover:bg-gray-700 hover:text-white transition duration-300 ease-in-out"
+            className="cursor-pointer flex flex-col bg-gray-700/50 p-4 h-45 items-center text-center rounded-[16px] hover:bg-gray-700 hover:text-white transition duration-300 ease-in-out"
             key={index}
           >
-            <h3 className=" text-[10px] font-bold text-[var(--color-accent-dark)]">
-              {project.title}
+            <h3 className="flex gap-1 text-[10px] font-bold text-[var(--color-accent-dark)]">
+              <div className="bubble">{project.icon}</div> {project.title}
             </h3>
             <a href={project.url} target="_blank">
               <img
                 src={project.image}
-                className="rounded-xl border-1 border-gray-600 my-1"
+                className="rounded-xl border border-gray-600 my-2"
                 alt={project.title}
               />
             </a>
 
-            <p className="text-[8px] text-gray-400 mt-2">
-              {project.description}
-            </p>
+            <p className="text-[8px] text-gray-300 mt-2">{project.description}</p>
+            <div className="flex gap-1 mt-4">
+              {project.tools.map((tool, ind) => {
+                return (
+                  <p
+                    key={ind}
+                    className="text-[0.45em] mx-1 px-[2px] rounded-[2px] tracking-widest text-gray-500 font-bold border-b-1 border-b-gray-600"
+                  >
+                    {tool}
+                  </p>
+                );
+              })}
+            </div>
           </div>
         ))}
       </div>

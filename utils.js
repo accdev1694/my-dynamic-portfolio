@@ -4,31 +4,39 @@ export const getImgUrl = (path) => {
 
 export const projects = [
   {
-    title: "✍️ BLOG",
+    title: "BLOG",
     image: getImgUrl("./src/assets/images/projects/blog.png"),
     url: "https://abojeonline.com/",
     description:
       "Built with React to showcase my skills and teach programming to aspiring developers",
+    tools: ["Tailwind", "React", "Firebase", "Emailjs"],
+    icon:"✍️"
   },
   {
-    title: "🛒 ECOMMERCE",
+    title: "ECOMMERCE",
     image: getImgUrl("./src/assets/images/projects/ecommerce.png"),
     url: null,
     description:
       "An in-progress e-commerce site for African foods, showcasing my web development skills.",
+    tools: ["Tailwind", "React", "Firebase", "Nextjs"],
+    icon:"🛒"
   },
   {
-    title: "🧑‍💻 PORTFOLIO",
+    title: "PORTFOLIO",
     image: getImgUrl("./src/assets/images/projects/portfolio.png"),
     url: null,
     description:
       "A showcase of my projects and experience, reflecting my technical abilities and brand.",
+    tools: ["Tailwind", "React", "Emailjs"],
+    icon:"🧑‍💻"
   },
   {
-    title: "🎯 TRAINING PAGE",
+    title: "TRAINING PAGE",
     image: getImgUrl("./src/assets/images/projects/landing-page.png"),
     url: "https://techpivotlandingpage.netlify.app/",
     description:
       "A clean, responsive page designed to promote my tech bootcamp, highlighting my skills.",
+    tools: ["HTML", "CSS", "Javascript"],
+    icon: "🎯"
   },
 ];
