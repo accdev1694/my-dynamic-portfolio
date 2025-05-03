@@ -5,8 +5,6 @@ import { useState } from "react";
 const Contact = () => {
   // console.log(emailjs);
 
-  
-
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -16,10 +14,16 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, e.target, import.meta.env.VITE_USER_ID)
+      .sendForm(
+        import.meta.env.VITE_SERVICE_ID,
+        import.meta.env.VITE_TEMPLATE_ID,
+        e.target,
+        import.meta.env.VITE_PUBLIC_KEY
+      )
       .then((res) => {
         alert("Success");
         setFormData({ name: "", email: "", message: "" });
+        
       })
       .catch((err) => {
         alert("'Something's not right");
@@ -34,7 +38,7 @@ const Contact = () => {
     >
       <HeadingOne text="Get in Touch" />
       <form onSubmit={handleSubmit} className="w-full flex gap-7">
-      <input type="hidden" name="to_name" value="RecipientNameOrSite" />
+        <input type="hidden" name="to_name" value="RecipientNameOrSite" />
         <fieldset className="border border-gray-700 rounded-xl w-[65%] p-4 pt-6 flex flex-col gap-4">
           <legend className="font-bold text-xs px-3 tracking-[1px]">
             PERSONAL INFORMATION
@@ -49,7 +53,7 @@ const Contact = () => {
             <input
               className="w-[80%] text-center  focus:outline-none rounded-full border border-gray-600 p-2 bg-[var(--color-bg)] hover:bg-gray-800"
               type="text"
-              name="name"
+              name="from_name"
               value={formData.name}
               id="name"
               placeholder="John Doe"
