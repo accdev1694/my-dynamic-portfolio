@@ -13,7 +13,7 @@ const Projects = () => {
       <div className="grid grid-cols-2 gap-6  p-6 w-[50%] rounded-[5px]">
         {projects.map((project, index) => (
           <div
-            className="cursor-pointer flex flex-col bg-gray-700/50 p-4 h-45 items-center text-center rounded-[16px] hover:bg-gray-700 hover:text-white transition duration-300 ease-in-out"
+            className="cursor-pointer flex flex-col bg-gray-700/50 p-4 h-45 items-center text-center rounded-[16px] hover:bg-gray-700 hover:text-white transition duration-300 ease-in-out opacity-60 hover:opacity-100"
             key={index}
           >
             <h3 className="flex gap-1 text-[10px] font-bold text-[var(--color-accent-dark)]">
@@ -22,13 +22,15 @@ const Projects = () => {
             <a href={project.url} target="_blank">
               <img
                 src={project.image}
-                className="rounded-xl border border-gray-600 my-2"
+                className="rounded-xl border border-gray-600 my-2 "
                 alt={project.title}
               />
             </a>
 
-            <p className="text-[8px] text-gray-300 mt-2">{project.description}</p>
-            <div className="flex gap-1 mt-4">
+            <p className="text-[8px] text-gray-300 mt-1 tracking-[1px]">
+              {project.description}
+            </p>
+            <div className="flex gap-1 mt-2">
               {project.tools.map((tool, ind) => {
                 return (
                   <p
