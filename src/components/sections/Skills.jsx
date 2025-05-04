@@ -1,4 +1,3 @@
-import Blur from "../Blur";
 import HeadingOne from "../HeadingOne";
 import ImageCard from "../ImageCard";
 import ContactBtn from "../ContactBtn";
@@ -10,7 +9,6 @@ const Skills = () => {
       id="my-skills"
       className="relative min-h-screen pt-12 flex flex-col items-center justify-center gap-12 text-center"
     >
-      <Blur />
       <div className="">
         <HeadingOne text="Skills" />
         <p className="leading-4 md:leading-6 text-gray-500 mt-4 text-xs tracking-[1px]">

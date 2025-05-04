@@ -20,7 +20,7 @@ const Contact = () => {
         e.target,
         import.meta.env.VITE_PUBLIC_KEY
       )
-      .then((res) => {
+      .then(() => {
         alert("Success");
         setFormData({ name: "", email: "", message: "" });
         
@@ -37,7 +37,7 @@ const Contact = () => {
       className="relative min-h-screen pt-12 flex flex-col items-center justify-center gap-12 text-center"
     >
       <HeadingOne text="Get in Touch" />
-      <form onSubmit={handleSubmit} className="w-full flex gap-7">
+      <form onSubmit={handleSubmit} className="w-full flex flex-col gap-7">
         <input type="hidden" name="to_name" value="RecipientNameOrSite" />
         <fieldset className="border border-gray-700 rounded-xl w-[65%] p-4 pt-6 flex flex-col gap-4">
           <legend className="font-bold text-xs px-3 tracking-[1px]">

@@ -1,4 +1,3 @@
-import Blur from "../Blur";
 import ContactBtn from "../ContactBtn";
 import HeadingOne from "../HeadingOne";
 import ImageCard from "../ImageCard";
@@ -9,9 +8,8 @@ const About = () => {
   return (
     <section
       id="about-me"
-      className="relative min-h-screen pt-12 flex flex-col-reverse md:flex-row items-center justify-center md:justify-between gap-12 md:gap-0"
+      className="relative min-h-screen pt-2 flex flex-col-reverse md:flex-row items-center justify-center md:justify-between gap-2 md:gap-0"
     >
-      <Blur />
       <div className="md:w-[60%] justfy-left md:mr-14 text-center md:text-right items-center">
         <h3 className="text-xs">
           Hello,{" "}

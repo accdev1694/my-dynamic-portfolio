@@ -18,7 +18,7 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
   return (
     // navbar component
     <nav
-      className="fixed top-0 left-0 right-0 bg-[var(--color-bg)] h-12 md:h-24 md:pt-10 w-full z-40 text-gray-500 border-b border-gray-700/40"
+      className="fixed top-0 left-0 bg-[var(--color-bg)] h-12 md:h-24 md:pt-10 w-screen z-40 text-gray-500 border-b border-gray-700/40"
     >
       {/* navbar container */}
       <div className="max-w-7.5xl mx-auto px-4 md:px-56">
