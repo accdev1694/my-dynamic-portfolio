@@ -8,7 +8,7 @@ const About = () => {
   return (
     <section
       id="about-me"
-      className="relative min-h-screen pt-2 flex flex-col-reverse md:flex-row items-center justify-center md:justify-between gap-2 md:gap-0"
+      className="relative min-h-screen  flex flex-col-reverse md:flex-row items-center justify-center md:justify-between gap-4 md:gap-0"
     >
       <div className="md:w-[60%] justfy-left md:mr-14 text-center md:text-right items-center">
         <h3 className="text-xs">
@@ -29,12 +29,12 @@ const About = () => {
           focused, creative, and at home. I can’t imagine doing anything else,
           and that passion drives everything I build.
         </p>
-        <div className="flex mt-8 gap-4">          
-          <NextPageBtn addClass="w-[65%]" text=">>> Checkout My Skills" next="#my-skills"/>
-          <ContactBtn addClass="w-[35%]"/>
+        <div className="flex flex-col mt-8 gap-4">          
+          <NextPageBtn addClass="w-[100%]" text=">>> Checkout My Skills" next="#my-skills"/>
+          <ContactBtn addClass="w-[100%]"/>
         </div>
       </div>
-      <div className="bubble md:ml-14 w-[70%] md:w-[40%] bg-gradient-to-r from-[var(--color-accent-dark)] to-[var(--color-accent)] rounded-full">
+      <div className="bubble md:ml-14 w-[50%] md:w-[40%] bg-gradient-to-r from-[var(--color-accent-dark)] to-[var(--color-accent)] rounded-full">
         <ImageCard
           url={"../../src/assets/images/my-photo.png"}
           classNames=""
