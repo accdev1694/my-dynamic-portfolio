@@ -8,9 +8,9 @@ const About = () => {
   return (
     <section
       id="about-me"
-      className="relative min-h-screen  flex flex-col-reverse md:flex-row items-center justify-center md:justify-between gap-4 md:gap-0"
+      className="relative min-h-screen  flex flex-col-reverse lg:flex-row items-center justify-center lg:justify-between gap-4 lg:gap-0"
     >
-      <div className="md:w-[60%] justfy-left md:mr-14 text-center md:text-right items-center">
+      <div className="lg:w-[60%] justfy-center text-center lg:text-right items-center">
         <h3 className="text-xs">
           Hello,{" "}
           <span className="text-white font-bold text-xl md:text-2xl">I AM</span>
@@ -22,7 +22,7 @@ const About = () => {
           </span>{" "}
           Developer
         </h2>
-        <p className="leading-4 md:leading-6 text-gray-500 mt-4 text-xs tracking-[1px]">
+        <p className="leading-4 text-gray-500 mt-2 text-xs tracking-[1px]">
           I started out in architecture, drawn to design and structure — but
           when I discovered web development, everything clicked. Coding quickly
           became more than a skill; it became the space where I feel most
@@ -34,7 +34,7 @@ const About = () => {
           <ContactBtn addClass="w-[100%]"/>
         </div>
       </div>
-      <div className="bubble md:ml-14 w-[50%] md:w-[40%] bg-gradient-to-r from-[var(--color-accent-dark)] to-[var(--color-accent)] rounded-full">
+      <div className="bubble w-[50%] md:w-[40%] bg-gradient-to-r from-[var(--color-accent-dark)] to-[var(--color-accent)] rounded-full">
         <ImageCard
           url={"../../src/assets/images/my-photo.png"}
           classNames=""

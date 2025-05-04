@@ -4,12 +4,12 @@ const Logo = ({ href }) => {
   return (
     <div className="flex items-center gap-2">
       <img
-        className="w-6 md:w-8 rounded-full border border-solid border-gray-600 shadow"
+        className="w-6 lg:w-8 rounded-full border border-solid border-gray-600 shadow"
         src={getImgUrl("../favicon.png")}
         alt="My Photo"
       />
       <a
-        className="md:text-2xl font-bold hover:text-white transition-all duration-300 ease-in-out"
+        className=" font-bold hover:text-white transition-all duration-300 ease-in-out"
         href={href}
       >
         Portfoli
