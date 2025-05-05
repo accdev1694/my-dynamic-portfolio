@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <section
       id="my-skills"
-      className="relative min-h-screen flex flex-col items-center justify-center gap-10 sm:gap-12 text-center"
+      className="relative min-h-screen flex flex-col items-center justify-center gap-10 sm:gap-12 text-center lg:pt-12"
     >
       <div className="">
         <HeadingOne text="Skills" />
