@@ -5,7 +5,7 @@ const Logo = ({ href }) => {
     <div className="flex items-center gap-2">
       <img
         className="w-6 lg:w-8 rounded-full border border-solid border-gray-600 shadow"
-        src={getImgUrl("../favicon.png")}
+        src={getImgUrl("public/favicon.png")}
         alt="My Photo"
       />
       <a
