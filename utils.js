@@ -24,7 +24,7 @@ export const projects = [
   {
     title: "PORTFOLIO",
     image: getImgUrl("/assets/images/projects/portfolio.png"),
-    url: null,
+    url: "https://olochesportfolio.netlify.app/",
     description:
       "A showcase of my projects and experience, reflecting my technical abilities and brand.",
     tools: ["Tailwind", "React", "Emailjs"],
