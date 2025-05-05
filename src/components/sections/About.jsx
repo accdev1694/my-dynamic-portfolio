@@ -39,7 +39,7 @@ const About = () => {
       </div>
       <div className="bubble w-[40%] md:w-[30%] bg-gradient-to-r from-[var(--color-accent-dark)] to-[var(--color-accent)] rounded-full">
         <ImageCard
-          url={"../../src/assets/images/my-photo.png"}
+          url={"/assets/images/my-photo.png"}
           classNames=""
           alt="My Photo"
         />

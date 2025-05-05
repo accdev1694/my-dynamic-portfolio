@@ -44,14 +44,14 @@ const Projects = () => {
         ))}
       </div>
       <div className="flex flex-col lg:w-[50%] text-center items-center lg:items-left lg:justify-left lg:text-left lg:gap-2">
-        <h3 className="text-[0.5em] lg:text-lg tracking-[1px] sm:text-[0.6em] mb-1 text-white w-full">
+        <h3 className="text-[0.5em]  tracking-[1px] sm:text-[0.6em] mb-1 text-white w-full">
           Blog | Landing Page | Ecommerce Site | Portfolio
         </h3>
         <div className="w-full">
           <HeadingOne text="My Projects" />
         </div>
 
-        <p className="leading-4 lg:leading-6 text-gray-500 text-[0.6em] sm:text-xs lg:text-lg tracking-[2px] mt-2">
+        <p className="leading-4 lg:leading-6 text-gray-500 text-[0.6em] sm:text-xs  tracking-[1px] mt-2">
           Here’s a selection of projects that reflect my growth. My personal
           portfolio, a blog. I've also built a landing page for a tech training.
           I am also working on an e-commerce platform for African foods.

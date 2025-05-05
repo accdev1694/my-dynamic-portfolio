@@ -32,7 +32,7 @@ const Skills = () => {
                 <ImageCard
                   alt="Ux Design"
                   classNames="bubble-slow w-10 p-2 border-1 border-gray-600 hover:bg-gray-800  transition-all duration-300 ease-in-out"
-                  url="../../src/assets/images/skills/uiux.png"
+                  url="/assets/images/skills/uiux.png"
                 />
                 <p className="text-[10px] text-center">UI/UXD</p>
               </div>
@@ -42,7 +42,7 @@ const Skills = () => {
                 <ImageCard
                   alt="Figma Logo"
                   classNames="bubble w-10 p-2 rounded-full border-1 border-gray-600 hover:bg-gray-800 transition-all duration-300 ease-in-out"
-                  url="../../src/assets/images/skills/figma.png"
+                  url="/assets/images/skills/figma.png"
                 />
                 <p className="text-[10px] text-center">Figma</p>
               </div>
@@ -52,7 +52,7 @@ const Skills = () => {
                 <ImageCard
                   alt="Framer Logo"
                   classNames="bubble-slow w-10 p-2 bg-gray-700 rounded-full border-1 border-gray-600 hover:bg-gray-800 transition-all duration-300 ease-in-out"
-                  url="../../src/assets/images/skills/framer.png"
+                  url="/assets/images/skills/framer.png"
                 />
                 <p className="text-[10px] text-center">Framer</p>
               </div>
@@ -62,7 +62,7 @@ const Skills = () => {
                 <ImageCard
                   alt="WebFlow Logo"
                   classNames="bubble w-10 border-1 p-2 bg-gray-700 rounded-full border-1 border-gray-600 hover:bg-gray-800 transition-all duration-300 ease-in-out"
-                  url="../../src/assets/images/skills/webflow.png"
+                  url="/assets/images/skills/webflow.png"
                 />
                 <p className="text-[10px] text-center">Webflow</p>
               </div>
@@ -78,7 +78,7 @@ const Skills = () => {
                 <ImageCard
                   alt="Firebase Logo"
                   classNames="bubble-slow w-10 p-2 border-1 border-gray-600 hover:bg-gray-800 transition-all duration-300 ease-in-out"
-                  url="../../src/assets/images/skills/firebase.png"
+                  url="/assets/images/skills/firebase.png"
                 />
                 <p className="text-[10px] text-center">Firebase</p>
               </div>
@@ -88,7 +88,7 @@ const Skills = () => {
                 <ImageCard
                   alt="Firebase Logo"
                   classNames="bubble w-10 p-2 border-1 border-gray-600 hover:bg-gray-800 rounded-full  transition-all duration-300 ease-in-out"
-                  url="../../src/assets/images/skills/react.png"
+                  url="/assets/images/skills/react.png"
                 />
                 <p className="text-[10px] text-center">React</p>
               </div>
@@ -98,7 +98,7 @@ const Skills = () => {
                 <ImageCard
                   alt="Firebase Logo"
                   classNames="bubble-slow w-10 p-2 border-1 border-gray-600 hover:bg-gray-800 rounded-full transition-all duration-300 ease-in-out"
-                  url="../../src/assets/images/skills/tailwind.png"
+                  url="/assets/images/skills/tailwind.png"
                 />
                 <p className="text-[10px] text-center">Tailwind</p>
               </div>
@@ -108,7 +108,7 @@ const Skills = () => {
                 <ImageCard
                   alt="Firebase Logo"
                   classNames="bubble w-10 p-2 rounded-full border-1 border-gray-600 hover:bg-gray-800 transition-all duration-300 ease-in-out"
-                  url="../../src/assets/images/skills/python.png"
+                  url="/assets/images/skills/python.png"
                 />
                 <p className="text-[10px] text-center">Python</p>
               </div>

@@ -9,7 +9,7 @@ const FooterLinks = () => {
         rel="noopener noreferrer"
       >
         <img
-          src="../../src/assets/images/contact/github.png"
+          src="/assets/images/contact/github.png"
           className="w-6 p-1 bg-gray-700 rounded-full hover:bg-transparent transition duration-300 ease-in-out"
           alt="Github Logo"
         />
@@ -20,7 +20,7 @@ const FooterLinks = () => {
         rel="noopener noreferrer"
       >
         <img
-          src="../../src/assets/images/contact/hashnode.png"
+          src="/assets/images/contact/hashnode.png"
           className="w-6 p-1 bg-gray-700 rounded-full hover:bg-transparent transition duration-300 ease-in-out"
           alt="Hashnode Logo"
         />
@@ -31,7 +31,7 @@ const FooterLinks = () => {
         rel="noopener noreferrer"
       >
         <img
-          src="../../src/assets/images/contact/linkedin.png"
+          src="/assets/images/contact/linkedin.png"
           className="w-6 p-1 bg-gray-700 rounded-full hover:bg-transparent transition duration-300 ease-in-out"
           alt="Linkedin Logo"
         />
@@ -42,7 +42,7 @@ const FooterLinks = () => {
         rel="noopener noreferrer"
       >
         <img
-          src="../../src/assets/images/contact/mail.png"
+          src="/assets/images/contact/mail.png"
           className="w-6 p-1 bg-gray-700 rounded-full hover:bg-transparent transition duration-300 ease-in-out"
           alt="Gmail Logo"
         />
