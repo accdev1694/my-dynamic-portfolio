@@ -28,13 +28,13 @@ const About = () => {
           focused, creative, and at home. I can’t imagine doing anything else,
           and that passion drives everything I build.
         </p>
-        <div className="flex flex-col sm:flex-row mt-12 gap-4">
+        <div className="flex flex-col sm:flex-row mt-12 gap-4 w-full">
           <NextPageBtn
-            addClass="w-[100%]"
+            addClass="w-[50%]"
             text=">>> Checkout My Skills"
             next="#my-skills"
           />
-          <ContactBtn addClass="w-[100%]" />
+          <ContactBtn addClass="w-[50%]" />
         </div>
       </div>
       <div className="bubble w-[40%] md:w-[30%] bg-gradient-to-r from-[var(--color-accent-dark)] to-[var(--color-accent)] rounded-full">
