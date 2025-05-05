@@ -9,7 +9,7 @@ const About = () => {
       id="about-me"
       className="relative min-h-screen flex flex-col-reverse gap-8 items-center justify-center lg:justify-between lg:flex-row lg:pt-12"
     >
-      <div className="lg:w-[60%] justfy-center text-center lg:text-right items-center">
+      <div className="w-[60%]  justfy-center text-center lg:text-right items-center">
         <h3 className="text-xs">
           Hello,{" "}
           <span className="text-white font-bold text-xl md:text-2xl">I AM</span>

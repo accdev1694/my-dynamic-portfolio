@@ -9,7 +9,7 @@ const Logo = ({ href }) => {
         alt="My Photo"
       />
       <a
-        className=" font-bold hover:text-white transition-all duration-300 ease-in-out"
+        className=" font-bold hover:text-white transition-all duration-300 ease-in-out lg:text-lg"
         href={href}
       >
         Portfoli

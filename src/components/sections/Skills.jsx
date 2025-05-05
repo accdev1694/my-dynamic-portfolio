@@ -7,11 +7,11 @@ const Skills = () => {
   return (
     <section
       id="my-skills"
-      className="relative min-h-screen pt-12 flex flex-col items-center justify-center gap-12 text-center"
+      className="relative min-h-screen flex flex-col items-center justify-center gap-12 sm:gap-12 text-center"
     >
       <div className="">
         <HeadingOne text="Skills" />
-        <p className="leading-4 md:leading-6 text-gray-500 mt-4 text-xs tracking-[1px]">
+        <p className="leading-4 md:leading-6 text-gray-500 sm:mt-4 text-xs tracking-[1px]">
           I began my front-end journey with a bootcamp with the University of
           Birmingham, where I built a strong base in HTML, CSS, JavaScript, and
           React. That experience sparked my hunger to go deeper, leading me to
@@ -21,12 +21,12 @@ const Skills = () => {
           experiences.
         </p>
 
-        <div className="border border-gray-700 rounded-xl flex mt-12">
-          <div className="flex flex-col w-[50%] p-4">
+        <div className="border border-gray-700 rounded-xl flex flex-col lg:flex-row lg:items-center lg:justify-center lg:gap-6 mt-12 sm:mt-12 w-full p-2 sm:p-6">
+          <div className="flex flex-col lg:w-[50%]">
             <h3 className="text-xs font-bold text-[var(--color-accent-dark)]">
               WEB DESIGN SKILLS
             </h3>
-            <div className="grid grid-cols-4 gap-6 bg-gray-700/50 p-2 rounded-xl mt-4">
+            <div className="grid grid-cols-4 gap-6 bg-gray-700/50 p-2 rounded-xl mt-2">
               {/* IU/UX Design Skill */}
               <div className="flex flex-col items-center mt-1 gap-2">
                 <ImageCard
@@ -68,11 +68,11 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col w-[50%] p-4">
+          <div className="flex flex-col lg:w-[50%] mt-2 lg:mt-0">
             <h3 className="text-xs font-bold text-[var(--color-accent-dark)]">
               WEB DEVELOPMENT SKILLS
             </h3>
-            <div className="grid grid-cols-4 bg-gray-700/50 gap-6 p-2 rounded-xl mt-4">
+            <div className="grid grid-cols-4 bg-gray-700/50 gap-6 p-2 rounded-xl mt-2">
               {/* Firebase Skill */}
               <div className="flex flex-col items-center mt-1 gap-2">
                 <ImageCard
@@ -116,9 +116,9 @@ const Skills = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-between gap-4 w-[60%]">
-        <NextPageBtn addClass="w-[50%]" text=">>> Checkout My Projects" next="#my-works" />
-        <ContactBtn addClass="w-[50%]"/>
+      <div className="flex flex-col sm:flex-row justify-between gap-6 w-full">
+        <NextPageBtn addClass="sm:w-[50%]" text=">>> Checkout My Projects" next="#my-works" />
+        <ContactBtn addClass="w-full sm:w-[50%]"/>
       </div>
     </section>
   );
