@@ -1,11 +1,9 @@
-import { getImgUrl } from "../../utils";
-
 const Logo = ({ href }) => {
   return (
     <div className="flex items-center gap-2">
       <img
         className="w-6 lg:w-8 rounded-full border border-solid border-gray-600 shadow"
-        src={getImgUrl("public/favicon.png")}
+        src={"/favicon.png"}
         alt="My Photo"
       />
       <a
