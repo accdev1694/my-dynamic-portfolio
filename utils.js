@@ -9,7 +9,7 @@ export const projects = [
     url: "https://abojeonline.com/",
     description:
       "Built with React to showcase my skills and teach programming to aspiring developers",
-    tools: ["Tailwind", "React", "Firebase", "Emailjs"],
+    tools: ["Tailwind", "React", "Firebase"],
     icon:"✍️"
   },
   {
@@ -18,7 +18,7 @@ export const projects = [
     url: null,
     description:
       "An in-progress e-commerce site for African foods, showcasing my web development skills.",
-    tools: ["Tailwind", "React", "Firebase", "Nextjs"],
+    tools: ["Tailwind", "React", "Firebase"],
     icon:"🛒"
   },
   {

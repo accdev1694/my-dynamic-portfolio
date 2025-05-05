@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <section
       id="my-skills"
-      className="relative min-h-screen flex flex-col items-center justify-center gap-12 sm:gap-12 text-center"
+      className="relative min-h-screen flex flex-col items-center justify-center gap-10 sm:gap-12 text-center"
     >
       <div className="">
         <HeadingOne text="Skills" />
@@ -21,7 +21,7 @@ const Skills = () => {
           experiences.
         </p>
 
-        <div className="border border-gray-700 rounded-xl flex flex-col lg:flex-row lg:items-center lg:justify-center lg:gap-6 mt-12 sm:mt-12 w-full p-2 sm:p-6">
+        <div className="border border-gray-700 rounded-xl flex flex-col lg:flex-row lg:items-center lg:justify-center lg:gap-6 mt-10 sm:mt-12 w-full p-2 sm:p-6">
           <div className="flex flex-col lg:w-[50%]">
             <h3 className="text-xs font-bold text-[var(--color-accent-dark)]">
               WEB DESIGN SKILLS
