@@ -8,7 +8,7 @@ export const projects = [
     image: getImgUrl("/assets/images/projects/blog.png"),
     url: "https://abojeonline.com/",
     description:
-      "Built with React to showcase my skills and teach programming to aspiring developers",
+      "A Blog about programming and tutorials",
     tools: ["Tailwind", "React", "Firebase"],
     icon: "✍️",
   },
@@ -17,7 +17,7 @@ export const projects = [
     image: getImgUrl("/assets/images/projects/ecommerce.png"),
     url: null,
     description:
-      "An in-progress e-commerce site for African foods, showcasing my web development skills.",
+      "An in-progress e-commerce site for African foods.",
     tools: ["Tailwind", "React", "Firebase"],
     icon: "🛒",
   },
@@ -26,7 +26,7 @@ export const projects = [
     image: getImgUrl("/assets/images/projects/portfolio.png"),
     url: "https://olochesportfolio.netlify.app/",
     description:
-      "A showcase of my projects and experience, reflecting my technical abilities and brand.",
+      "A showcase of some projects and experience.",
     tools: ["Tailwind", "React", "Emailjs"],
     icon: "🧑‍💻",
   },
@@ -35,7 +35,7 @@ export const projects = [
     image: getImgUrl("/assets/images/projects/landing-page.png"),
     url: "https://techpivotlandingpage.netlify.app/",
     description:
-      "A clean, responsive page designed to promote my tech bootcamp, highlighting my skills.",
+      "A clean, responsive page for my tech bootcamp.",
     tools: ["HTML", "CSS", "Javascript"],
     icon: "🎯",
   },
