@@ -51,7 +51,7 @@ const Contact = () => {
               </h3>
             </legend>
             <input
-              className="w-[90%] text-xs md:text-lg lg:text-xl text-center focus:outline-none rounded-full border border-gray-600 py-2 lg:py-4 bg-[var(--color-bg)] hover:bg-gray-800"
+              className="w-[90%] text-xs md:text-lg  text-center focus:outline-none rounded-full border border-gray-600 py-2 bg-[var(--color-bg)] hover:bg-gray-800"
               type="text"
               name="from_name"
               value={formData.name}
@@ -70,7 +70,7 @@ const Contact = () => {
               </h3>
             </legend>
             <input
-              className="w-[90%] text-center text-xs md:text-lg lg:text-xl focus:outline-none rounded-full border border-gray-600 py-2 lg:py-4 bg-[var(--color-bg)] hover:bg-gray-800"
+              className="w-[90%] text-center text-xs md:text-lg  focus:outline-none rounded-full border border-gray-600 py-2  bg-[var(--color-bg)] hover:bg-gray-800"
               type="email"
               name="email"
               value={formData.email}
@@ -89,7 +89,7 @@ const Contact = () => {
               LEAVE A NOTE
             </legend>
             <textarea
-              className="focus:outline-none lg:text-xl h-36 lg:h-70"
+              className="focus:outline-none lg:text-xl h-20 lg:h-60"
               name="message"
               id="message"
               value={formData.message}

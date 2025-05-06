@@ -31,7 +31,7 @@ export const projects = [
     icon: "🧑‍💻",
   },
   {
-    title: "TRAINING PAGE",
+    title: "TRAINING",
     image: getImgUrl("/assets/images/projects/landing-page.png"),
     url: "https://techpivotlandingpage.netlify.app/",
     description:
