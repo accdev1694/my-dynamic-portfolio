@@ -31,12 +31,12 @@ export const projects = [
     icon: "🧑‍💻",
   },
   {
-    title: "TRAINING",
-    image: getImgUrl("/assets/images/projects/landing-page.png"),
-    url: "https://techpivotlandingpage.netlify.app/",
+    title: "PROJECT-BTA",
+    image: getImgUrl("/assets/images/projects/bta.png"),
+    url: "https://olochesportfolio.netlify.app/",
     description:
-      "A clean, responsive page for my tech bootcamp.",
-    tools: ["HTML", "CSS", "Javascript"],
+      "Website for an NGO for underpriviledged Children",
+    tools: ["TailwindCSS","React", "Firebase"],
     icon: "🎯",
   },
 ];
