@@ -4,9 +4,9 @@ export const getImgUrl = (path) => {
 
 export const projects = [
   {
-    title: "BLOG",
+    title: "My BLOG",
     image: getImgUrl("/assets/images/projects/blog.png"),
-    url: "https://abojeonline.com/",
+    url: "https://my-blog-cfc41.web.app",
     description:
       "A Blog about programming and tutorials",
     tools: ["Tailwind", "React", "Firebase"],
