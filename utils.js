@@ -8,7 +8,7 @@ export const projects = [
     image: getImgUrl("/assets/images/projects/blog.png"),
     url: "https://my-blog-cfc41.web.app",
     description:
-      "A Blog about programming and tutorials",
+      "A Blog about Programming and Coding Tutorials",
     tools: ["Tailwind", "React", "Firebase"],
     icon: "✍️",
   },
@@ -17,7 +17,7 @@ export const projects = [
     image: getImgUrl("/assets/images/projects/ecommerce.png"),
     url: null,
     description:
-      "An in-progress e-commerce site for African foods.",
+      "An in-progress e-commerce site for African Foods.",
     tools: ["Tailwind", "React", "Firebase"],
     icon: "🛒",
   },
@@ -27,7 +27,7 @@ export const projects = [
     url: "https://olochesportfolio.netlify.app/",
     description:
       "A showcase of some projects and experience.",
-    tools: ["Tailwind", "React", "Emailjs"],
+    tools: ["CSS", "React", "Emailjs"],
     icon: "🧑‍💻",
   },
   {
