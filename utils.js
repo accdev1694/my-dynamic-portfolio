@@ -33,7 +33,7 @@ export const projects = [
   {
     title: "PROJECT-BTA",
     image: getImgUrl("/assets/images/projects/bta.png"),
-    url: "https://olochesportfolio.netlify.app/",
+    url: "https://project-bta-1882a.web.app/",
     description:
       "Website for an NGO for underpriviledged Children",
     tools: ["TailwindCSS","React", "Firebase"],
